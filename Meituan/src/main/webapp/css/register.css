@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+ *{ margin:0 auto; padding:0 }
+ body{font-size:14px; width:1349px; background-color:#fff}
+ a{text-decoration:none}
+ #reg_body,#top{ width:980px; height:400px}
+ #reg_logo{width:100%; height:61px; border-bottom:2px solid #4FC3B7}
+ #reg_logo_right{width:158px; height:36px; float:right; margin-top:15px; line-height:36px}
+ #reg_logo_right a{width:46px; height:21px; line-height:21px; background-color:#4FC3B7; display:block; float:right;text-align:center; margin-left:10px; margin-top:5px;}
+ .img{margin-top:10px}
+ #form div{width:100%; height:36px; float:left; margin-top:10px}
+ #form p{width:200px; height:36px; line-height:36px; color:#999; float:left; margin-left:10px}
+ ul li{list-style:none; }
+ label{width:100px; height:36px; float:left; line-height:36px; text-align:right; margin-right:10px}
+ #reg_btn{width:150px; height:36px; display:block; background-color:#4FC3B7; float:left; line-height:36px;; text-align:center; color:#fff }
+ input{width:260px; height:36px; float:left; line-height:36px; text-align:left}
+ .register_form_dtmm{width:136px; height:40px; list-style-type:none; text-align:center}
+ #anquan span{ width:82px; height:20px; background-color:#9C6; display:block; float:left; margin-left:5px; line-height:20px;text-align:center}
+ #reg_footer{width:100%; height:140px; border-top:1px solid #666; border-bottom:1px solid #666;}
+ #reg_footer p{width:100%; height:35px; display:block; margin-top:10px; text-align:center}
+ .footer_content{ margin:auto auto; width:100%; height:30px}
+

@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+		padding:0px;
+		margin:0 auto;
+	}
+	ul li{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+	}
+	#box1{
+		width:980px;
+		height:54px;
+		margin-top:40px;
+		margin-bottom:30px;
+	}
+	#box2{
+		width:980px;
+		height:370px;
+		margin-bottom:70px;
+	}
+	#box2 #left{
+		width:480px;
+		height:370px;
+		float:left;
+		margin-right:115px;
+	}
+	#box2 #right{
+		width:270px;
+		height:370px;
+		float:left;
+
+	}
+	#box2 #right #none{
+		width:248px;
+		height:18px;
+		margin:10px;
+	}
+	#box2 #right span{
+		line-height:21px;
+		color:#666;
+		font-size:14px;
+	}
+	#box2 #right span a{
+		color:#666;
+		font-size:14px;
+		float:right;
+	}
+	#box2 #right .two{
+		width:268px;
+		height:36px;
+		margin:8px 0 8px 0;
+		border:1px solid #999;
+		padding-top:-10px;
+	}
+	#box2 #right .two .two01{
+		width:34px;
+		height:34px;
+		float:left;
+	}
+	#box2 #right .two .two02{
+		width:234px;
+		height:34px;
+		float:left;
+	}	
+	#box2 #right .two .two02 input{
+		width:229px;
+		height:24px;
+		margin:5px 5px 5px 0;
+		border:none;
+	}
+	#box2 #right #three{
+		width:270px;
+		height:18px;
+		font-size:12px;
+		color:#999;
+		margin-bottom:8px;
+	}
+	#box2 #right #three a{
+		float:right;
+		color:#2DBAAC;
+	}
+	#box2 #right #three a:hover{
+		text-decoration:underline;
+	}
+	#box2 #right #three input{
+		margin:3px 5px 0 0;
+	}
+	#box2 #right #four{
+		width:270px;
+		height:37px;
+		margin:8px 0 8px 0;
+		background-color:#2DBAAC;
+	}
+	#box2 #right #four input{
+		width:230px;
+		height:23px;
+		margin:7px 20px 6px 20px;
+		background-color:#2DBAAC;
+		border:none;
+		color:#FFF;
+		font-size:16px;
+	}
+	#box2 #right p{
+		width:270px;
+		height:21px;
+		font-size:14px;
+		color:#999;
+	}
+	#box2 #right p a{
+		color:#2DBAAC;
+	}
+	#box2 #right p a:hover{
+		text-decoration:underline;
+	}
+	
+	#footer{
+		width:980px;
+		height:90px;
+		margin-bottom:30px;
+	}
+	#footer #footer01{
+		width:980px;
+		height:48px;
+		margin-bottom:20px;
+		border-bottom:1px solid #EEE;
+		border-top:1px solid #EEE;
+	}
+	
+	#footer #footer01 ul{
+		color: #eee;
+    	float: left;
+    	width: 594px;
+		margin:12px 0 12px -16px;
+	}
+	#footer #footer01 ul li{
+		width:48px;
+		height:14px;
+		line-height:14px;
+		float:left;
+		border-right:1px solid #999;
+		font-size:12px;
+		color:#999;
+		margin:5px 0 5px 0;
+		padding-right:16px;
+		padding-left:16px;
+	}
+	#footer #footer01 ul .last{
+		width:64px;
+	}
+	#footer #footer01 ul li a{
+		font-size:12px;
+		color:#999;
+	}
+	#footer #footer01 ul li a:hover{
+		text-decoration:underline;
+	}
+	#footer #footer01 img{
+		margin-top:11px;
+	}
+	#footer #footer02{
+		width:980px;
+		height:18px;
+		font-size:12px;
+		clear: both;
+   		font-family: initial;
+   	 	text-align: left;
+		color:#CCC;
+	}
+	#footer #footer02 a{
+		color:#CCC;
+	}
+	#footer #footer02 a:hover{
+		text-decoration:underline;
+	}
+
