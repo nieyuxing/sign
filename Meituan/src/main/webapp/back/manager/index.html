@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>美团商家中心</title>
+<link rel="shortcut icon" href="../../images/favicon.ico"type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../../easyui/css/easyui.css">
+<link rel="stylesheet" type="text/css" href="../../easyui/css/icon.css">
+<link rel="stylesheet" type="text/css" href="../../easyui/css/demo.css">
+<link rel="stylesheet" type="text/css" href="../css/shangjia.css"/>
+<script type="text/javascript" src="../../js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="../../easyui/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../easyui/js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="../../easyui/js/index.js"></script>
+<script type="text/javascript" src="../../js/showpic.js"></script>
+<script type="text/javascript" src="../../js/ajaxfileupload.js"></script>
+<script type="text/javascript" src="../../ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="../../ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="../../ueditor/lang/zh-cn/zh-cn.js"></script>
+</head>
+<body class="easyui-layout">
+	<div data-options="region:'north',border:false" style="height:65px; background: #B3DFDA; padding: 10px">
+		 <div id="s_body_top">
+               <div id="s_body_top_content">
+                  <a href="../../index.html"><img src="../../images/meituanlogo2.png" /></a> 
+                  &nbsp;&nbsp;&nbsp;<p>欢迎来到美团商家中心</p>
+               </div>
+           </div>
+	</div>
+	<div data-options="region:'west',split:true,title:'菜单'"
+		style="width: 150px; padding: 10px;">
+		<ul class="easyui-tree" id="menu_tree">
+			<li><span>我的店铺</span>
+				<ul>
+					<li>店铺管理</li>
+					<li>商品管理</li>
+					<li>订单管理</li>
+					<li>基本资料</li>
+					<li>修改密码</li>
+				</ul></li>
+		</ul>
+	</div>
+	<div data-options="region:'south',border:false"style="height: 50px; background: #A9FACD; padding: 10px;">
+	  <div id="footer">
+	  <a href="#">&copy;meituan.com</a>&nbsp; <a href="#">京ICP证070791号</a>&nbsp;<span>京公网安备11010502025545号</span>
+	  </div>
+	  
+	</div>
+	<div data-options="region:'center',title:'操作'">
+		<div id="center_area" class="easyui-tabs" data-options="fit:true">
+              
+		</div>
+	</div>
+ </body>
+</html>

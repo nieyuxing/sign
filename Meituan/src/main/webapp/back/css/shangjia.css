@@ -1,0 +1,11 @@
+*{margin:0 auto; padding:0}
+body{width:1400px}
+#all{width:100%}
+a{ text-decoration:none}
+#s_body{width:100%}
+#s_body_top{width:100%; height:55px;}
+#s_body_top_content{width:1000px; height:55px; margin:0 auto;}
+#s_body_top_content img{ margin-top:5px;}
+#s_body_top_content a,p{display:block; float:left; height:55px; line-height:55px; margin-left:150px;}
+#s_body_top_content p{ font-weight:bold; font-size:24px}
+#footer{text-align:center}
