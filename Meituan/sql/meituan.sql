@@ -1,4 +1,4 @@
-
+---
 drop table Type;
 drop table users;
 drop table goods;
